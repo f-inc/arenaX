@@ -1,0 +1,42 @@
+export const Prizes = () => {
+  return (
+    <div id="prizes" className="w-full flex flex-col gap-y-16 justify-center items-center py-20 lg:py-20">
+      <img className="w-64 h-20" src="/images/prizes/prizes.png" alt="" />
+      <div className="flex flex-col gap-y-10 lg:flex-row items-end gap-x-8">
+        <div className="flex lg:hidden flex-col items-center px-16 py-8 rounded-2xl prize gap-y-16">
+          <div className="text-[#FFC700] text-3xl ibm-400">1st prize</div>
+          <img src="/images/prizes/first.svg" alt="" />
+          <div className="uppercase text-lg text-white ibm-400 text-center">
+            $150k+ in credit <br />
+            $5,000 cash
+          </div>
+        </div>
+
+        <div className="h-max flex flex-col items-center px-16 py-8 rounded-2xl prize gap-y-8">
+          <div className="text-[#FFC700] text-2xl ibm-400">2nd prize</div>
+          <img src="/images/prizes/second.svg" alt="" />
+          <div className="uppercase text-lg text-white ibm-400 text-center">
+            $150k+ in credit <br />
+            $5,000 cash
+          </div>
+        </div>
+        <div className="hidden lg:flex flex-col items-center px-16 py-8 rounded-2xl prize gap-y-16">
+          <div className="text-[#FFC700] text-3xl ibm-400">1st prize</div>
+          <img src="/images/prizes/first.svg" alt="" />
+          <div className="uppercase text-lg text-white ibm-400 text-center">
+            $150k+ in credit <br />
+            $5,000 cash
+          </div>
+        </div>
+        <div className="h-max flex flex-col items-center px-16 py-8 rounded-2xl prize gap-y-8">
+          <div className="text-[#FFC700] text-2xl ibm-400">3rd prize</div>
+          <img src="/images/prizes/third.svg" alt="" />
+          <div className="uppercase text-lg text-white ibm-400 text-center">
+            $150k+ in credit <br />
+            $5,000 cash
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
