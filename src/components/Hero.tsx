@@ -4,8 +4,16 @@ export const Hero = () => {
   return (
     <div className="w-full">
       <Header />
+      <div className="w-full flex justify-center items-center mt-10">
+        <div className="w-max flex justify-center items-center text-center gap-x-2 px-4 py-3 hero-grad border border-[#FFFFFF99]">
+          <img className="w-6 h-6 lg:w-4 lg:h-4" src="/hero.svg" alt="" />
+          <div className="hero-grad-1 uppercase ibm-500 text-sm lg:text-lg">
+            Founders, inc x golden state warriors
+          </div>
+        </div>
+      </div>
       <div className="w-full flex flex-col justify-center items-center">
-        <img className="w-80 h-14 mt-40" src="/images/hero-date.png" alt="" />
+        <img className="w-80 h-14 mt-20 lg:mt-28" src="/images/hero-date.png" alt="" />
         <div className="hero-gradient text-2xl text-center lg:max-w-4xl lg:text-6xl orbitron font-bold mt-14">
           The Bay Area’s premier sports tech hackathon.
         </div>
