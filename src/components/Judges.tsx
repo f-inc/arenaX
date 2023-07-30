@@ -33,10 +33,10 @@ export const Judges = () => {
               src={judge.imageSrc}
               alt={judge.name}
             />
-            <div className="uppercase text-white text-2xl ibm-400">
+            <div className="uppercase text-white text-2xl ibm-400 mt-2 lg:mt-4">
               {judge.name}
             </div>
-            <div className="uppercase text-[#FFFFFF99] ibm-400 text-sm max-w-[15rem]">
+            <div className="uppercase text-[#FFFFFF99] ibm-400 text-sm max-w-[15rem] mt-1 lg:mt-2">
               {judge.role}
             </div>
           </div>

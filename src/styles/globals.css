@@ -85,3 +85,16 @@ body {
   background: rgba(0, 0, 0, 0.31);
   backdrop-filter: blur(2.5px);
 }
+
+.hero-grad {
+  border-radius: 112px;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(38px);
+}
+
+.hero-grad-1 {
+  background: var(--linear, linear-gradient(109deg, #ff8a00 0%, #ffc700 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
