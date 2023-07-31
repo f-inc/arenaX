@@ -10,7 +10,7 @@ export const Schedule = () => {
         <div className="hero-gradient text-white text-2xl lg:text-4xl orbitron font-bold mt-12 my-8 lg:mt-0 lg:my-0">
           Day 0 - Tuesday 8/22
         </div>
-        <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-lg ibm-400 uppercase px-10 py-6 lg:mt-10 info-gradient">
+        <div className="text-[#ffc700] bg-[#08151B] text-center rounded-2xl text-lg ibm-400 uppercase px-10 py-6 lg:mt-10 info-gradient">
           <span className="text-[#878787]"> 5:00 PM - 6:30 PM: </span> Hackathon
           Kickoff and Team Making
         </div>

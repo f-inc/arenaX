@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Hamburger from "hamburger-react";
+import Image from "next/image";
 
 import Link from "next/link";
 
@@ -28,15 +29,6 @@ export const Header = () => {
       <div className="lg:hidden">
         <Hamburger toggled={isSidebarOpen} toggle={toggleSidebar} />
       </div>
-      {/* <div className="flex flex-col p-5 items-center gap-x-8 lg:hidden">
-        {navLinks.map((link) => (
-          <Link key={link.href} href={link.href}>
-            <span className="text-white text-lg font-semibold uppercase cursor-pointer link-shadow">
-              {link.text}
-            </span>
-          </Link>
-        ))}
-      </div> */}
       <div className="hidden lg:flex items-center gap-x-8">
         {navLinks.map((link) => (
           <Link key={link.href} href={link.href}>
@@ -63,9 +55,6 @@ export const Header = () => {
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href}>
                   <img className="w-60" src={link.image} alt="" />
-                  {/* <span className="text-white text-xl lg:text-lg font-semibold uppercase cursor-pointer link-shadow">
-                    {link.text}
-                  </span> */}
                 </Link>
               ))}
             </div>
