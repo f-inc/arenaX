@@ -9,11 +9,23 @@ export const Info = () => {
 
   return (
     <div className="w-full flex flex-col gap-y-8 lg:gap-y-16 items-center justify-center py-20">
-      <img className="w-72 lg:w-[33rem] lg:h-20" src="/images/Info-main.png" alt="" />
-      <div className="ibm-400 text-white m-5 lg:max-w-2xl text-center">
-        We've introduced the ability to turn off chat history in ChatGPT.
-        Conversations that are started when chat history is disabled won’t be
-        used to train and improve our models, and won’t appear.
+      <img
+        className="w-72 lg:w-[33rem] lg:h-20"
+        src="/images/Info-main.png"
+        alt=""
+      />
+      <div className="ibm-400 text-white m-5 lg:max-w-2xl text-center leading-7">
+        <a
+          className="underline pointer-cursor"
+          target="_blank"
+          rel="noreferrer"
+          href="https://f.inc/"
+        >
+          Founders, Inc.
+        </a>{" "}
+        is bringing together the biggest brands in sports with the best hackers
+        in the Bay Area, with the central mission of supercharging the new
+        generation of sports technology ideas with the following topics:
       </div>
       <div className="flex justify-center items-center gap-3 lg:self-stretch flex-wrap mx-40">
         {topics.map((topic, index) => (

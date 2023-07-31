@@ -18,21 +18,35 @@ export const Hero = () => {
           src="/images/hero-date.png"
           alt=""
         />
-        <div className="h-max hero-gradient text-2xl text-center lg:max-w-5xl lg:text-7xl orbitron font-bold mt-14">
-          The Bay Area’s premier sports tech hackathon.
+        <div className="flex flex-col items-center">
+          <div className="hero-gradient text-2xl text-center lg:max-w-4xl lg:text-6xl orbitron font-bold mt-14 pb-1 lg:pb-5">
+            The Bay Area’s premier
+          </div>
+          <div className="hero-gradient text-2xl text-center lg:max-w-4xl lg:text-6xl orbitron font-bold">
+            sports tech hackathon.
+          </div>
         </div>
-        <div className="flex items-center input-gradient border border-neutral-600 border-opacity-90 rounded-xl lg:rounded-2xl mt-12 pr-2">
+        <div className="w-full max-w-xl h-12 lg:h-20 flex items-center justify-between input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 p-2">
           <input
-            className="p-[19px] w-60 lg:p-6 lg:w-80 text-xs lg:text-base text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
+            className="w-44 lg:p-5 lg:pl-8 lg:pr-2 lg:w-80 text-xs lg:text-lg text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
             type="text"
             placeholder="Enter your email address"
             name=""
             id=""
           />
-          <button className="text-black text-xs lg:text-base conthrax font-semibold bg-[#FFC700] px-1.5 py-1 lg:py-4 lg:px-6 rounded-lg">
+          <button className="text-black h-full text-[10px] lg:text-base conthrax font-semibold bg-[#FFC700] px-2 lg:px-8 rounded-lg">
             REGISTER NOW
           </button>
         </div>
+        {/* <div className="flex items-center input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 pr-2">
+          <input
+            className="p-[19px] w-60 lg:p-5 lg:pl-8 lg:pr-2 lg:w-80 text-xs lg:text-base text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
+           
+          />
+          <button className="text-black text-xs lg:text-base conthrax font-semibold bg-[#FFC700] px-1.5 py-1 lg:py-6 lg:px-8 rounded-lg">
+            REGISTER NOW
+          </button>
+        </div> */}
       </div>
     </div>
   );
