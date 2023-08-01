@@ -4,7 +4,6 @@ export const Footer = () => {
   const navLinks = [
     { href: "#sponsors", text: "Sponsors" },
     { href: "#schedule", text: "Schedule" },
-    { href: "#partners", text: "Partners" },
     { href: "#prizes", text: "Prizes" },
   ];
 

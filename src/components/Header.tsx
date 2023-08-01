@@ -17,7 +17,6 @@ export const Header = () => {
       text: "sponsors",
     },
     { href: "#schedule", image: "/images/schedule.png", text: "schedule" },
-    { href: "#partners", image: "/images/judges.png", text: "partners" },
     { href: "#prizes", image: "/images/prizes/prizes.png", text: "prizes" },
   ];
 
@@ -34,7 +33,7 @@ export const Header = () => {
           <Link key={link.href} href={link.href}>
             <div
               style={{
-                WebkitTextStroke: "1.5px #000",
+                WebkitTextStroke: "1px #000",
                 // text shadow
                 textShadow: "0px 0px 10px rgba(0, 0, 0, 0.25)",
               }}
