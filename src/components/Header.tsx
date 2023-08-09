@@ -32,16 +32,9 @@ export const Header = () => {
       <div className="hidden lg:flex items-center gap-x-8">
         {navLinks.map((link) => (
           <Link key={link.href} href={link.href}>
-            <div
-              style={{
-                WebkitTextStroke: "1px #000",
-                // text shadow
-                textShadow: "0px 0px 10px rgba(0, 0, 0, 0.25)",
-              }}
-              className="text-white text-xl font-bold tracking-wide  uppercase cursor-pointer"
-            >
+            <h1 className="text-white text-xl font-bold tracking-wide stroke uppercase cursor-pointer">
               {link.text}
-            </div>
+            </h1>
           </Link>
         ))}
       </div>

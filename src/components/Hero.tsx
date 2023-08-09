@@ -7,7 +7,11 @@ export const Hero = () => {
     <div className="w-full">
       <Header />
       <div className="w-full flex justify-center items-center mt-10">
-        <Link href="https://twitter.com/fdotinc/status/1684700454239039488?s=20">
+        <Link
+          href="https://twitter.com/fdotinc/status/1684700454239039488?s=20"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="w-max flex justify-center items-center text-center gap-x-2 px-5 py-3 hero-grad border border-[#FFFFFF99]">
             <img className="w-6 h-6 lg:w-5 lg:h-5" src="/hero.svg" alt="" />
             <div className="hero-grad-1 uppercase ibm-500 text-sm lg:text-lg">
