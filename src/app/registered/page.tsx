@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <main className="flex h-screen items-start p-6 lg:p-14 bg-[url('/images/hero-bg.png')] bg-center bg-no-repeat w-full bg-cover">
-        <Hero emailCaptured={false} />
+        <Hero emailCaptured />
       </main>
       <div className="bg-[#08151b] bg-[url('/images/patern.png')] bg-center bg-no-repeat w-full bg-cover">
         <Info />

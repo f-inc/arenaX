@@ -2,7 +2,11 @@ import Link from "next/link";
 import Email from "./Email";
 import Header from "./Header";
 
-export const Hero = () => {
+export const Hero = (
+  { emailCaptured = false }: { emailCaptured: boolean } = {
+    emailCaptured: false,
+  }
+) => {
   return (
     <div className="w-full">
       <Header />
@@ -34,7 +38,13 @@ export const Hero = () => {
             sports tech hackathon.
           </div>
         </div>
-        <Email />
+        {emailCaptured ? (
+          <div className="hero-gradient text-sm text-center lg:max-w-4xl lg:text-2xl orbitron font-bold mt-14 pb-1 lg:pb-5">
+            Congrats, you're on the list
+          </div>
+        ) : (
+          <Email />
+        )}
       </div>
     </div>
   );

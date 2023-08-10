@@ -1,7 +1,6 @@
 "use client";
-import React, { useState } from "react";
 import Hamburger from "hamburger-react";
-import Image from "next/image";
+import { useState } from "react";
 
 import Link from "next/link";
 
