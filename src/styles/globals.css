@@ -2,104 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+     :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient( to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @font-face {
-  font-family: "ibm-500";
-  src: url("/fonts/ibm-500.ttf");
+    font-family: "ibm-500";
+    src: url("/fonts/ibm-500.ttf");
 }
 
 .ibm-500 {
-  font-family: "ibm-500";
+    font-family: "ibm-500";
 }
 
 @font-face {
-  font-family: "ibm-400";
-  src: url("/fonts/ibm-400.ttf");
+    font-family: "ibm-400";
+    src: url("/fonts/ibm-400.ttf");
 }
 
 .ibm-400 {
-  font-family: "ibm-400";
+    font-family: "ibm-400";
 }
 
 @font-face {
-  font-family: "conthrax";
-  src: url("/fonts/conthrax.woff");
+    font-family: "conthrax";
+    src: url("/fonts/conthrax.woff");
 }
 
 .conthrax {
-  font-family: "conthrax";
+    font-family: "conthrax";
 }
 
 .link-shadow {
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @font-face {
-  font-family: "orbitron";
-  src: url("/fonts/orbitron.ttf");
+    font-family: "orbitron";
+    src: url("/fonts/orbitron.ttf");
 }
 
 .orbitron {
-  font-family: "orbitron";
+    font-family: "orbitron";
 }
 
 .hero-gradient {
-  background: linear-gradient(180deg, #fff 53.03%, #9a9a9a 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, #fff 53.03%, #9a9a9a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .input-gradient {
-  background: rgba(0, 0, 0, 0.31);
-  backdrop-filter: blur(14px);
+    background: rgba(0, 0, 0, 0.31);
+    backdrop-filter: blur(14px);
 }
 
 .prize {
-  background: linear-gradient(180deg, #08151b 36.72%, #0c2029 100%);
+    background: linear-gradient(180deg, #08151b 36.72%, #0c2029 100%);
 }
 
 .input-gradient-footer {
-  background: rgba(0, 0, 0, 0.31);
-  backdrop-filter: blur(2.5px);
+    background: rgba(0, 0, 0, 0.31);
+    backdrop-filter: blur(2.5px);
 }
 
 .hero-grad {
-  border-radius: 112px;
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(38px);
+    border-radius: 112px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(38px);
 }
 
 .hero-grad-1 {
-  background: var(--linear, linear-gradient(109deg, #ff8a00 0%, #ffc700 100%));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    background: var(--linear, linear-gradient(109deg, #ff8a00 0%, #ffc700 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .stroke {
-  -webkit-text-stroke: 1.5px black;
-  color: white;
+    /* -webkit-text-stroke: 1.5px black;
+  color: white; */
 }
