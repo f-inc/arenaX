@@ -41,9 +41,9 @@ const Email = () => {
         }}
       />
       <form action={submitEmail}>
-        <div className="w-full max-w-xl h-12 lg:h-20 flex items-center justify-between input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 p-2">
+        <div className="w-full max-w-xl h-14 lg:h-20 flex items-center justify-between input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 p-2">
           <input
-            className="w-44 lg:p-5 lg:pl-6 lg:pr-2 lg:w-80 text-xs lg:text-lg text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
+            className="w-44 px-3 truncate lg:p-5 lg:pl-6 lg:pr-2 lg:w-80 text-xs lg:text-lg text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
             type="email"
             placeholder="Enter your email address"
             name="email"
@@ -52,7 +52,7 @@ const Email = () => {
             // onChange={handleEmail}
           />
           <button
-            className="text-black h-full text-[10px] lg:text-base conthrax font-semibold bg-[#FFC700] px-2 lg:px-8 rounded-lg"
+            className="text-black h-full text-[10px] lg:text-base conthrax font-bold bg-[#FFC700] px-3 lg:px-8 rounded-lg"
             type="submit"
           >
             REGISTER NOW
