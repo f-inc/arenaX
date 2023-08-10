@@ -40,8 +40,8 @@ const Email = () => {
           },
         }}
       />
-      <div className="w-full max-w-xl h-12 lg:h-20 flex items-center justify-between input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 p-2">
-        <form action={submitEmail}>
+      <form action={submitEmail}>
+        <div className="w-full max-w-xl h-12 lg:h-20 flex items-center justify-between input-gradient border border-[#FFFFFF99] rounded-xl lg:rounded-2xl mt-12 p-2">
           <input
             className="w-44 lg:p-5 lg:pl-6 lg:pr-2 lg:w-80 text-xs lg:text-lg text-[#FFFFFF99] bg-transparent outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400"
             type="email"
@@ -57,8 +57,8 @@ const Email = () => {
           >
             REGISTER NOW
           </button>
-        </form>
-      </div>
+        </div>
+      </form>
     </>
   );
 };
