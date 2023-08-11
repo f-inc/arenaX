@@ -19,7 +19,7 @@ export const Prizes = () => {
           <div className="text-[#FFC700] text-2xl ibm-400">2nd prize</div>
           <img src="/images/prizes/second.svg" alt="" />
           <div className="uppercase text-lg text-white ibm-400 text-center">
-            $25k credits + $3K Cash <br />
+            $25k credits + $2K Cash <br />
             access to the f.inc lab{" "}
           </div>
         </div>

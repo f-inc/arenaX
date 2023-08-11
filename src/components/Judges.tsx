@@ -1,7 +1,7 @@
 const judges = [
   {
     name: "Furqan Rydhan",
-    role: "CEO, Founders, Inc; Prev Founders/CTO Applovin (+$30B IPO)",
+    role: "CEO, Founders, Inc & thirdweb; Prev Founders/CTO Applovin (+$30B IPO)",
     imageSrc: "/images/judges/furqan.png",
   },
   {
@@ -16,7 +16,7 @@ const judges = [
   },
   {
     name: "Kirk Lacob",
-    role: "EVP, Basketball Operations for Golden State Warriors TBD, Chicago White Sox",
+    role: "EVP, Basketball Operations for Golden State Warriors",
     imageSrc: "/images/judges/kirk.png",
   },
 ];

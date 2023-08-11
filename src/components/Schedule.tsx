@@ -12,7 +12,7 @@ export const Schedule = () => {
         </div>
         <div className="text-[#ffc700] bg-[#08151B] text-center rounded-2xl text-lg ibm-400 uppercase px-10 py-6 lg:mt-10 info-gradient">
           <span className="text-[#878787]"> 5:00 PM - 6:30 PM: </span> Hackathon
-          Kickoff and Team Making
+          Kickoff and Team Forming Mixer
         </div>
       </div>
       <div className="flex flex-col items-center lg:my-20 text-center">
@@ -56,7 +56,7 @@ export const Schedule = () => {
             <span className="text-[#878787]">12:30 PM: </span> Lunch
           </div>
           <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
-            <span className="text-[#878787]"> 5:00 PM:</span> Basketball
+            <span className="text-[#878787]"> 2:00 PM:</span> Basketball
             Challenge hosted by Warriors
           </div>
           <div className="text-white bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
@@ -76,15 +76,15 @@ export const Schedule = () => {
             <span className="text-[#878787]"> 12:30 PM: </span> Lunch
           </div>
           <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
-            <span className="text-[#878787]">3:00 PM: </span> Final Pitches Due
+            <span className="text-[#878787]">3:00 PM: </span> Submissions + Judging
           </div>
-          <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
+          {/* <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 6:00 PM: </span> Demos and Judging
           </div>
           <div className="text-[#ffc700] bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 7:00 PM:</span> Awards and Closing
             Ceremony
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
