@@ -1,23 +1,23 @@
 const judges = [
   {
-    name: "Furqan Rydhan",
-    role: "CEO, Founders, Inc & thirdweb; Prev Founders/CTO Applovin (+$30B IPO)",
-    imageSrc: "/images/judges/furqan.png",
-  },
-  {
-    name: "Hubert Thieblot",
-    role: "Partner, Founders, Inc.; Prev Founder Curse (acquired by Twitch)",
-    imageSrc: "/images/judges/hubert.png",
-  },
-  {
     name: "Zaza Pachulia",
     role: "NBA Champion, Director of Investments for Golden State Warriors",
     imageSrc: "/images/judges/zaza.png",
   },
   {
-    name: "Kirk Lacob",
-    role: "EVP, Basketball Operations for Golden State Warriors",
-    imageSrc: "/images/judges/kirk.png",
+    name: "Furqan Rydhan",
+    role: "CEO, Founders, Inc & thirdweb; Prev Founders/CTO Applovin (+$30B IPO)",
+    imageSrc: "/images/judges/furqan.png",
+  },
+  {
+    name: "Suman Talukdar",
+    role: "Founder & GP, AiSprouts; Over $7B in returns",
+    imageSrc: "/images/judges/suman.png",
+  },
+  {
+    name: "Ivan Porollo",
+    role: "Founder, Cerebral Valley",
+    imageSrc: "/images/judges/ivan.png",
   },
 ];
 
