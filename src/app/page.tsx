@@ -5,20 +5,25 @@ import { Judges } from "@/components/Judges";
 import { Prizes } from "@/components/Prizes";
 import { Schedule } from "@/components/Schedule";
 import Sponsors from "@/components/Sponsors";
+import Image from "next/image";
+import Pattern from "../../public/images/patern.png";
 
 export default function Home() {
   return (
     <>
-      <main className="flex h-screen items-start p-6 lg:p-14 bg-[url('/images/hero-bg.png')] bg-center bg-no-repeat w-full bg-cover">
-        <Hero emailCaptured={false} />
-      </main>
-      <div className="bg-[#08151b] bg-[url('/images/patern.png')] bg-center bg-no-repeat w-full bg-cover">
-        <Info />
-        <Judges />
-        <Sponsors />
-        <Prizes />
-        <Schedule />
-        <Footer />
+      <Hero emailCaptured={false} />
+      <div className="relative">
+        <div className="bg-[#08151b] w-full h-full absolute -z-10">
+          <Image src={Pattern} fill={true} alt="" />
+        </div>
+        <div className="z-50">
+          <Info />
+          <Judges />
+          <Sponsors />
+          <Prizes />
+          <Schedule />
+          <Footer />
+        </div>
       </div>
     </>
   );

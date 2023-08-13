@@ -1,8 +1,11 @@
 "use client";
 import Hamburger from "hamburger-react";
 import { useState } from "react";
-
+import Image from "next/image";
 import Link from "next/link";
+import ScheduleImg from "../../public/images/schedule.png";
+import PrizesImg from "../../public/images/prizes/prizes.png";
+import SponsorsImg from "../../public/images/sponsors/sponsors.png";
 
 export const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -13,11 +16,11 @@ export const Header = () => {
   const navLinks = [
     {
       href: "#sponsors",
-      image: "/images/sponsors/sponsors.png",
+      image: SponsorsImg,
       text: "sponsors",
     },
-    { href: "#schedule", image: "/images/schedule.png", text: "schedule" },
-    { href: "#prizes", image: "/images/prizes/prizes.png", text: "prizes" },
+    { href: "#schedule", image: ScheduleImg, text: "schedule" },
+    { href: "#prizes", image: PrizesImg, text: "prizes" },
   ];
 
   return (
@@ -46,7 +49,9 @@ export const Header = () => {
             <div className="flex flex-col items-center gap-y-10 gap-x-8 lg:hidden p-8">
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href}>
-                  <img className="w-60" src={link.image} alt="" />
+                  <div className="w-60">
+                    <Image src={link.image} alt="" />
+                  </div>
                 </Link>
               ))}
             </div>

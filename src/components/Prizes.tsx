@@ -1,10 +1,15 @@
+import Image from "next/image";
+import PrizesImg from "../../public/images/prizes/prizes.png";
+
 export const Prizes = () => {
   return (
     <div
       id="prizes"
       className="w-full flex flex-col gap-y-16 justify-center items-center py-20 lg:py-20"
     >
-      <img className="w-64 h-20" src="/images/prizes/prizes.png" alt="" />
+      <div className="w-64 h-20">
+        <Image src={PrizesImg} alt="" />
+      </div>
       <div className="flex flex-col gap-y-10 lg:flex-row items-end gap-x-8">
         <div className="flex lg:hidden flex-col items-center px-[26px] py-8 rounded-2xl prize gap-y-16">
           <div className="text-[#FFC700] text-3xl ibm-400">1st prize</div>

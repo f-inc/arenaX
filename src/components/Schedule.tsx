@@ -1,14 +1,15 @@
+import Image from "next/image";
+import ScheduleImg from "../../public/images/schedule.png";
+
 export const Schedule = () => {
   return (
     <div
       id="schedule"
       className="w-full flex flex-col items-center justify-center px-5 lg:px-0"
     >
-      <img
-        className="w-80 lg:w-[22rem] h-20"
-        src="/images/schedule.png"
-        alt=""
-      />
+      <div className="w-80 lg:w-[22rem] h-20">
+        <Image src={ScheduleImg} alt="" />
+      </div>
       <div className="flex flex-col items-center lg:my-20">
         <div className="hero-gradient text-white text-2xl lg:text-4xl orbitron font-bold mt-12 my-8 lg:mt-0 lg:my-0">
           Day 0 - Tuesday 8/22

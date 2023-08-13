@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-
 export const Footer = () => {
   const navLinks = [
     { href: "#sponsors", text: "Sponsors" },
