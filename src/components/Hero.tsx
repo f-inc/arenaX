@@ -13,7 +13,7 @@ export const Hero = (
   return (
     <div className="flex h-screen items-start p-6 lg:p-14 relative">
       <div className="w-full h-full inset-0 absolute">
-        <Image src={Herobg} fill={true} alt="" />
+        <Image className="object-cover" src={Herobg} fill={true} alt="" />
       </div>
       <div className="w-full z-50">
         <Header />
@@ -24,8 +24,8 @@ export const Hero = (
             rel="noopener noreferrer"
           >
             <div className="w-max flex justify-center items-center text-center gap-x-2 px-5 py-3 hero-grad border border-[#FFFFFF99]">
-              <img className="w-6 h-6 lg:w-5 lg:h-5" src="/hero.svg" alt="" />
-              <div className="hero-grad-1 uppercase ibm-500 text-sm lg:text-lg">
+              <img className="w-5 h-5 lg:w-5 lg:h-5" src="/hero.svg" alt="" />
+              <div className="hero-grad-1 uppercase ibm-500 text-xs lg:text-lg">
                 Founders, inc x golden state warriors
               </div>
             </div>
