@@ -11,13 +11,20 @@ import CircleLabs from "images/sponsors/circle-labs.png";
 import Lexica from "images/sponsors/lexica.png";
 import GoldenState from "images/sponsors/goldenstate.png";
 import Orangewood from "images/sponsors/orangewood.png";
+import SponsorsImg from "../../public/images/sponsors/sponsors.png";
+
 const Sponsors = () => {
   const sponsors = [BiFrost, Orangewood, Leap, Banana, Neurosity, Scenario];
 
   return (
     <>
-      <div id="sponsors" className="w-full flex justify-center items-center lg:pt-20">
-        <img className="w-80" src="/images/sponsors/sponsors.png" alt="" />
+      <div
+        id="sponsors"
+        className="w-full flex justify-center items-center lg:pt-20"
+      >
+        <div className="w-80">
+          <Image src={SponsorsImg} alt="" />
+        </div>
       </div>
       <div
         className="w-full flex justify-center items-center lg:mt-16 lg:pb-20"

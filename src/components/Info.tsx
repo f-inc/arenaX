@@ -1,3 +1,6 @@
+import Image from "next/image";
+import InfoMain from "../../public/images/Info-main.png";
+
 export const Info = () => {
   const topics = [
     "Athletic Performance/Recovery",
@@ -9,11 +12,9 @@ export const Info = () => {
 
   return (
     <div className="w-full flex flex-col gap-y-8 lg:gap-y-16 items-center justify-center py-20">
-      <img
-        className="w-72 lg:w-[33rem] lg:h-20"
-        src="/images/Info-main.png"
-        alt=""
-      />
+      <div className="w-72 lg:w-[33rem] lg:h-20">
+        <Image src={InfoMain} alt="" />
+      </div>
       <div className="ibm-400 text-white m-5 lg:max-w-2xl text-center leading-7">
         <a
           className="underline pointer-cursor"
