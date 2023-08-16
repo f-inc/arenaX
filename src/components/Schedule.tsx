@@ -42,7 +42,7 @@ export const Schedule = () => {
           </div>
           <div className="text-white bg-[#08151B] rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 9:00 PM:</span>{" "}
-            <span>Doors Close Close</span>
+            <span>Doors Close</span>
           </div>
         </div>
       </div>
