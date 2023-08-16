@@ -28,7 +28,7 @@ const judges = [
   },
   {
     name: "Jordan Gazdik",
-    role: "Founding Partner of StonebriarX",
+    role: "Founding Partner at StonebriarX",
     imageSrc: Vishal,
   },
 ];
@@ -41,9 +41,9 @@ export const Judges = () => {
     >
       <img className="w-72 h-20" src="/images/judges.png" alt="Judges" />
 
-      <div className="flex flex-wrap justify-center gap-y-12 lg:gap-x-10 mt-12 lg:mt-20">
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-y-12 sm:gap-x-10 mt-12 lg:mt-20 px-5">
         {judges.map((judge, index) => (
-          <div key={index} className="flex flex-col mb-12 lg:mb-0">
+          <div key={index} className="flex flex-col mb-6 lg:mb-0">
             <div className="rounded-xl w-60 h-60 overflow-hidden">
               <Image
                 className="object-cover"

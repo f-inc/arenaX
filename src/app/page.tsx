@@ -18,9 +18,9 @@ export default function Home() {
         </div>
         <div className="z-50">
           <Info />
+          <Prizes />
           <Judges />
           <Sponsors />
-          <Prizes />
           <Schedule />
           <Footer />
         </div>
