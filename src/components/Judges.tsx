@@ -27,7 +27,7 @@ const judges = [
     imageSrc: Ivan,
   },
   {
-    name: "Vishal",
+    name: "Jordan Gazdik",
     role: "Founding Partner of StonebriarX",
     imageSrc: Vishal,
   },
