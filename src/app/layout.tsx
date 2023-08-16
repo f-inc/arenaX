@@ -1,3 +1,4 @@
+import PHProvider from "@/app/provider";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <PHProvider>
+        <body>{children}</body>
+      </PHProvider>
     </html>
   );
 }
