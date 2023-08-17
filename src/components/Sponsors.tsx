@@ -26,7 +26,7 @@ const Sponsors = () => {
     Sapphire,
     Move,
     Respell,
-    Musicfy,
+    // Musicfy,
   ];
 
   return (
