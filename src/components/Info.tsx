@@ -32,7 +32,7 @@ export const Info = () => {
         {topics.map((topic, index) => (
           <div
             key={index}
-            className="w-full mx-5 lg:mx-0 lg:w-max text-[#ffc700] bg-[#08151B] text-center rounded-2xl text-lg lg:text-xl ibm-400 uppercase px-10 py-6 info-gradient"
+            className="w-full mx-5 lg:mx-0 lg:w-max text-[#ffc700] bg-[#08151B] text-center rounded-2xl text-lg lg:text-xl ibm-400 uppercase px-10 py-6 border-grad"
           >
             {topic}
           </div>

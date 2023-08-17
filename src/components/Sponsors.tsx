@@ -44,7 +44,7 @@ const Sponsors = () => {
         id="sponsors"
       >
         <div className="w-full flex flex-col lg:flex-row items-center max-w-screen-lg mt-16 lg:mt-14">
-          <div className="mb-5 lg:mb-0 w-[90%] lg:w-full flex flex-col rounded-2xl bg-[#08151B] border border-white/[.1] items-center justify-center">
+          <div className="mb-5 lg:mb-0 w-[90%] lg:w-full flex flex-col rounded-2xl bg-[#08151B] border-grad items-center justify-center">
             <div className="w-full flex justify-center py-1.5 ibm-500 text-sm hero-gradient uppercase font-medium border-b border-white/[.1]">
               Presenting Sponsor
             </div>
@@ -65,7 +65,7 @@ const Sponsors = () => {
                   {sponsors.map((image, key) => (
                     <div
                       key={key}
-                      className={`w-full h-20 lg:h-24 bg-[#08151B] border border-white/[.1] flex items-center justify-center rounded-2xl 
+                      className={`w-full h-20 lg:h-24 bg-[#08151B] border-grad flex items-center justify-center rounded-2xl
                       ${key === 1 ? "" : "p-3"}
                       `}
                     >

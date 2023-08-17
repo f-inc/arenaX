@@ -11,7 +11,7 @@ export const Prizes = () => {
         <Image src={PrizesImg} alt="" />
       </div>
       <div className="flex flex-col gap-y-10 lg:flex-row items-end gap-x-8">
-        <div className="flex lg:hidden flex-col items-center px-[26px] py-8 rounded-2xl prize gap-y-16">
+        <div className="flex lg:hidden flex-col items-center px-[26px] py-8 rounded-2xl border-grad prize gap-y-16">
           <div className="text-[#FFC700] text-3xl ibm-400">1st prize</div>
           <img src="/images/prizes/first.svg" alt="" />
           <div className="uppercase text-lg text-white ibm-400 text-center">
@@ -20,7 +20,7 @@ export const Prizes = () => {
           </div>
         </div>
 
-        <div className="h-max flex flex-col items-center px-[26px] py-8 rounded-2xl prize gap-y-8">
+        <div className="h-max flex flex-col items-center px-[26px] py-8 rounded-2xl border-grad prize gap-y-8">
           <div className="text-[#FFC700] text-2xl ibm-400">2nd prize</div>
           <img src="/images/prizes/second.svg" alt="" />
           <div className="uppercase text-lg text-white ibm-400 text-center">
@@ -28,7 +28,7 @@ export const Prizes = () => {
             access to the f.inc lab{" "}
           </div>
         </div>
-        <div className="hidden lg:flex flex-col items-center px-[26px] py-8 rounded-2xl prize gap-y-16">
+        <div className="hidden lg:flex flex-col items-center px-[26px] py-8 rounded-2xl border-grad prize gap-y-16">
           <div className="text-[#FFC700] text-3xl ibm-400">1st prize</div>
           <img src="/images/prizes/first.svg" alt="" />
           <div className="uppercase text-lg text-white ibm-400 text-center">
@@ -37,7 +37,7 @@ export const Prizes = () => {
             signed warriors merch{" "}
           </div>
         </div>
-        <div className="h-max flex flex-col items-center px-[26px] py-8 rounded-2xl prize gap-y-8">
+        <div className="h-max flex flex-col items-center px-[26px] py-8 rounded-2xl border-grad prize gap-y-8">
           <div className="text-[#FFC700] text-2xl ibm-400">3rd prize</div>
           <img src="/images/prizes/third.svg" alt="" />
           <div className="uppercase text-lg text-white ibm-400 text-center">

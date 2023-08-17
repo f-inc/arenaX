@@ -88,7 +88,7 @@ html {
 }
 
 .input-gradient-footer {
-  background: rgba(0, 0, 0, 0.31);
+  background: #0000004f;
   backdrop-filter: blur(2.5px);
 }
 
@@ -105,3 +105,24 @@ html {
   -webkit-text-fill-color: transparent;
 }
 
+.border-grad::before {
+  border: 1px solid transparent;
+  background: linear-gradient(
+    125.22deg,
+    rgba(255, 255, 255, 0.02) -0.62%,
+    rgba(255, 255, 255, 0.2) 48.53%,
+    rgba(255, 255, 255, 0.02) 98.71%
+  );
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 16px;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+.border-grad {
+  position: relative;
+}
