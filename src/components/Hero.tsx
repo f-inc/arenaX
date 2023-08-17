@@ -41,7 +41,7 @@ export const Hero = (
           </div>
           {emailCaptured ? (
             <div className="hero-gradient text-lg text-center lg:max-w-4xl lg:text-2xl orbitron font-bold mt-14 pb-1 lg:pb-5">
-              Congrats, you're on the list
+              Please click on the link we emailed you to confirm your seat
             </div>
           ) : (
             <Email />

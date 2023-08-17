@@ -49,7 +49,7 @@ export const Header = () => {
             <div className="flex flex-col items-center gap-y-10 gap-x-8 lg:hidden mt-6 p-8">
               {navLinks.map((link) => (
                 <Link key={link.href} href={link.href}>
-                  <div className="w-60">
+                  <div onClick={toggleSidebar} className="w-60">
                     <Image src={link.image} alt="" />
                   </div>
                 </Link>

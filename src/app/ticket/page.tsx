@@ -13,12 +13,12 @@ export default function Home() {
           </h1>
           <div className="flex flex-col gap-y-4 lg:flex-row gap-x-16">
             <Link href={tweetUrl}>
-              <button className="px-12 py-5 lg:text-lg text-[#ffc700] conthrax rounded-lg border-2 border-[#FFC700] uppercase">
+              <button className="w-full lg:w-max px-12 py-5 lg:text-lg text-[#ffc700] conthrax rounded-lg border-2 border-[#FFC700] uppercase">
                 make a tweet
               </button>
             </Link>
             <Link href={"/"}>
-              <button className="px-12 py-5 lg:text-lg text-black conthrax rounded-lg border-2 bg-[#ffc700] border-[#FFC700] uppercase">
+              <button className="w-full lg:w-max px-12 py-5 lg:text-lg text-black conthrax rounded-lg border-2 bg-[#ffc700] border-[#FFC700] uppercase">
                 continue to site
               </button>
             </Link>

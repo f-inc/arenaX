@@ -4,7 +4,7 @@ import { Info } from "@/components/Info";
 import { Judges } from "@/components/Judges";
 import { Prizes } from "@/components/Prizes";
 import { Schedule } from "@/components/Schedule";
-import Sponsors from "@/components/Sponsors";
+import Sponsors from "@/components/sponsors";
 import Image from "next/image";
 import Pattern from "../../public/images/patern.png";
 import Video from "@/components/Video";

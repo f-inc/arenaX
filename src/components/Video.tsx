@@ -1,10 +1,7 @@
 const Video = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center mb-20">
-        <div className="uppercase text-3xl text-white ibm-400 py-14 lg:py-20">
-          V arenax video v
-        </div>
+      <div className="flex flex-col justify-center items-center mb-20 py-20">
         {/* <div className=" bg-blue-400 lg:pb-20"></div> */}
         <div className="w-full flex justify-center rounded-xl overflow-hidden">
           <iframe
