@@ -7,6 +7,7 @@ import { Schedule } from "@/components/Schedule";
 import Sponsors from "@/components/Sponsors";
 import Image from "next/image";
 import Pattern from "../../public/images/patern.png";
+import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="z-50">
           <Info />
           <Prizes />
+          <Video />
           <Judges />
           <Sponsors />
           <Schedule />

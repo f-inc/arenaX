@@ -26,7 +26,7 @@ const Sponsors = () => {
     Sapphire,
     Move,
     Respell,
-    // Musicfy,
+    Musicfy,
   ];
 
   return (
@@ -43,25 +43,38 @@ const Sponsors = () => {
         className="w-full flex justify-center items-center lg:mt-16 pb-24 lg:pb-40"
         id="sponsors"
       >
-        <div className="w-full max-w-screen-lg">
-          <div className=" flex justify-center mt-16 lg:mt-14 px-4 sm:px-5">
+        <div className="w-full flex flex-col lg:flex-row items-center max-w-screen-lg mt-16 lg:mt-14">
+          <div className="mb-5 lg:mb-0 w-[90%] lg:w-full flex flex-col rounded-2xl bg-[#08151B] border border-white/[.1] items-center justify-center">
+            <div className="w-full flex justify-center py-1.5 hero-gradient uppercase font-medium border-b border-white/[.1]">
+              Presenting Sponsor
+            </div>
+            <div className="h-40 lg:h-[166px] flex items-center justify-center">
+              {/* <div className="hero-gradient uppercase font-medium">Presenting Sponsor</div> */}
+              <div className="w-28 p-2">
+                <Image className="" src={GoldenState} alt="sponsor" />
+              </div>
+            </div>
+          </div>
+          <div className="flex justify-center px-4 sm:px-5">
             <div className="w-full md:max-w-none flex flex-col md:flex-row gap-4 items-center">
               {/* <div className="w-full md:w-80 h-52 md:h-full bg-[#08151B] border border-white/[.1] rounded-2xl flex items-center justify-center md:p-12">
                 <Image src={GoldenState} alt="sponsor" className="w-36" />
               </div> */}
               <div className="w-full">
-                <div className="w-full grid grid-cols-2 xl:grid-cols-3 gap-4">
+                <div className="w-full grid grid-cols-2 xl:grid-cols-4 gap-4">
                   {sponsors.map((image, key) => (
                     <div
                       key={key}
-                      className={`w-full h-20 lg:h-24 rounded-2xl bg-[#08151B] border border-white/[.1] flex items-center justify-center 
+                      className={`w-full h-20 lg:h-24 bg-[#08151B] border border-white/[.1] flex items-center justify-center rounded-2xl 
                       ${key === 1 ? "" : "p-3"}
                       `}
                     >
                       <Image
                         src={image}
                         alt="sponsor"
-                        className="aspect-auto max-w-[60%]"
+                        className={`aspect-auto ${
+                          key === 6 ? "max-w-[30%]" : "max-w-[70%]"
+                        }`}
                       />
                     </div>
                   ))}
