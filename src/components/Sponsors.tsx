@@ -16,6 +16,7 @@ import AthletesAndAssets from "images/sponsors/athletes-and-assets.png";
 import Sapphire from "images/sponsors/sapphire.png";
 import Move from "images/sponsors/move.png";
 import Respell from "images/sponsors/respell.png";
+import Musicfy from "images/sponsors/musicfy.png";
 
 const Sponsors = () => {
   const sponsors = [
@@ -25,6 +26,7 @@ const Sponsors = () => {
     Sapphire,
     Move,
     Respell,
+    Musicfy,
   ];
 
   return (
