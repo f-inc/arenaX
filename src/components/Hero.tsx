@@ -40,7 +40,7 @@ export const Hero = (
             </div>
           </div>
           {emailCaptured ? (
-            <div className="hero-gradient text-sm text-center lg:max-w-4xl lg:text-2xl orbitron font-bold mt-14 pb-1 lg:pb-5">
+            <div className="hero-gradient text-lg text-center lg:max-w-4xl lg:text-2xl orbitron font-bold mt-14 pb-1 lg:pb-5">
               Congrats, you're on the list
             </div>
           ) : (
