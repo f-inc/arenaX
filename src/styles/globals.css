@@ -1,5 +1,7 @@
 @tailwind base;
+
 /* @tailwind components; */
+
 @tailwind utilities;
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -23,6 +25,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -97,9 +103,4 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.stroke {
-  /* -webkit-text-stroke: 1.5px black;
-  color: white; */
 }

@@ -18,15 +18,11 @@ export const Hero = (
       <div className="w-full z-50">
         <Header />
         <div className="w-full flex justify-center items-center mt-10">
-          <Link
-            href="https://twitter.com/fdotinc/status/1684700454239039488?s=20"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="w-max flex justify-center items-center text-center gap-x-2 px-5 py-3 hero-grad border border-[#FFFFFF99]">
+          <Link href="#prizes">
+            <div className="w-max flex justify-center items-center text-center gap-x-3 px-5 py-3 hero-grad border border-[#FFFFFF99]">
               <img className="w-5 h-5 lg:w-5 lg:h-5" src="/hero.svg" alt="" />
               <div className="hero-grad-1 uppercase ibm-500 text-xs lg:text-lg">
-                Founders, inc x golden state warriors
+                win $150k and signed warriors merch
               </div>
             </div>
           </Link>
