@@ -34,7 +34,7 @@ export const Header = () => {
       <div className="hidden lg:flex items-center gap-x-8">
         {navLinks.map((link) => (
           <Link key={link.href} href={link.href}>
-            <h1 className="text-white font-semibold text-xl tracking-wide stroke uppercase cursor-pointer">
+            <h1 className="text-white font-semibold ibm-400 text-xl tracking-wide stroke uppercase cursor-pointer">
               {link.text}
             </h1>
           </Link>

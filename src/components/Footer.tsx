@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className="w-full hidden lg:flex justify-center items-center gap-x-8 lg:mt-8">
         {navLinks.map((link) => (
           <Link key={link.href} href={link.href}>
-            <span className="text-white stroke text-lg font-semibold uppercase cursor-pointer link-shadow">
+            <span className="text-white stroke text-lg ibm-400 font-semibold uppercase cursor-pointer link-shadow">
               {link.text}
             </span>
           </Link>
