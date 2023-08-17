@@ -41,7 +41,7 @@ const Email = () => {
         }}
       />
       <form action={submitEmail}>
-        <div className="w-full max-w-xl h-14 lg:h-20 flex items-center justify-between bg-[#0000004f] backdrop-blur-[2.5px] border-grad rounded-xl lg:rounded-2xl mt-12 p-2">
+        <div className="w-full max-w-xl h-14 lg:h-20 flex items-center justify-between bg-[#0000004f] backdrop-blur-sm border-grad rounded-xl lg:rounded-2xl mt-12 p-2">
           <input
             className="z-50 w-44 px-3 truncate lg:p-5 lg:pl-6 lg:pr-2 lg:w-80 text-base lg:text-lg text-[#FFFFFF99] outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400 bg-transparent"
             type="email"
