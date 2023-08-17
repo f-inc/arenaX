@@ -45,7 +45,7 @@ const Sponsors = () => {
       >
         <div className="w-full flex flex-col lg:flex-row items-center max-w-screen-lg mt-16 lg:mt-14">
           <div className="mb-5 lg:mb-0 w-[90%] lg:w-full flex flex-col rounded-2xl bg-[#08151B] border border-white/[.1] items-center justify-center">
-            <div className="w-full flex justify-center py-1.5 hero-gradient uppercase font-medium border-b border-white/[.1]">
+            <div className="w-full flex justify-center py-1.5 ibm-500 text-sm hero-gradient uppercase font-medium border-b border-white/[.1]">
               Presenting Sponsor
             </div>
             <div className="h-40 lg:h-[166px] flex items-center justify-center">

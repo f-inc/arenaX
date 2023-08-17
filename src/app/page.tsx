@@ -20,7 +20,7 @@ export default function Home() {
         <div className="z-50">
           <Info />
           <Prizes />
-          {/* <Video /> */}
+          <Video />
           <Judges />
           <Sponsors />
           <Schedule />
