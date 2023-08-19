@@ -44,7 +44,7 @@ const Sponsors = () => {
         className="w-full flex justify-center items-center lg:mt-16 pb-24 lg:pb-40"
         id="sponsors"
       >
-        <div className="w-full h-max flex flex-col lg:flex-row gap-y-4 gap-x-4 max-w-screen-lg mt-16 lg:mt-14 px-4 sm:px-5">
+        <div className="w-full h-max flex flex-col justify-center lg:flex-row gap-y-4 gap-x-4 mt-16 lg:mt-14 px-4 sm:px-5">
           <GSW />
           <div className="hidden lg:flex flex-col gap-y-4">
             <div className="w-full flex gap-x-4">
