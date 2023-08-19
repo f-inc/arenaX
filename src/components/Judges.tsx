@@ -6,11 +6,11 @@ import Ivan from "images/judges/ivan.png";
 import Vishal from "images/judges/vishal.png";
 
 const judges = [
-  {
-    name: "Zaza Pachulia",
-    role: "NBA Champion, Director of Investments for Golden State Warriors",
-    imageSrc: Zaza,
-  },
+  // {
+  //   name: "Zaza Pachulia",
+  //   role: "NBA Champion, Director of Investments for Golden State Warriors",
+  //   imageSrc: Zaza,
+  // },
   {
     name: "Furqan Rydhan",
     role: "CEO, Founders, Inc & thirdweb; Prev Founders/CTO Applovin (+$30B IPO)",
