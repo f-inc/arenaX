@@ -40,7 +40,7 @@ const Email = () => {
           },
         }}
       />
-      <form action={submitEmail} className="w-full">
+      <form action={submitEmail} className="w-full flex justify-center">
         <div className="w-full lg:max-w-xl h-14 lg:h-20 flex items-center justify-between bg-[#0000004f] backdrop-blur-sm border-grad rounded-xl lg:rounded-2xl mt-12 p-2">
           <input
             className="z-50 w-full md:w-64 px-3 truncate lg:p-5 lg:pl-6 lg:pr-2 lg:w-80 text-sm lg:text-lg text-[#FFFFFF99] outline-none border-r-0 rounded-l-xl lg:rounded-l-2xl ibm-400 bg-transparent"
