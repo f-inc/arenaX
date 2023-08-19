@@ -28,7 +28,6 @@ export const Schedule = () => {
             <span className="text-[#878787]"> 9:00 AM: </span>
             <span> </span>
             <span className="text-white">
-              {" "}
               Doors Open (coffee + breakfast provided)
             </span>
           </div>
@@ -74,6 +73,7 @@ export const Schedule = () => {
           </div>
         </div>
       </div>
+
       <div className="flex flex-col items-center lg:my-20 text-center">
         <div className="hero-gradient text-white text-2xl lg:text-4xl orbitron font-bold mt-12 my-8 lg:mt-0 lg:my-0">
           <span>Day 3 - Friday 8/25 </span>
@@ -90,6 +90,12 @@ export const Schedule = () => {
           <div className="text-[#ffc700] bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]">3:00 PM: </span>
             <span>Submissions + Judging</span>
+          </div>
+          <div className="text-white bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
+            <span className="text-[#878787]"> 5:00 PM: </span>
+            <span>
+              Fireside Chat: Baron Davis, NBA All-Star and Angel Investor
+            </span>
           </div>
         </div>
       </div>
