@@ -83,7 +83,7 @@ export const Schedule = () => {
           </div>
           <div className="text-[#ffc700] bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 2:00 PM:</span>
-            <span> Basketball Challenge hosted by Warriors</span>
+            <span> Basketball Challenge hosted by Golden State Warriors</span>
           </div>
           <div className="text-white bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 7:00 PM: </span>
