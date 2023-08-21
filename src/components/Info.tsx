@@ -22,8 +22,9 @@ export const Info = () => {
     },
     {
       name: "zaza pachulia",
-      role: "Executive, Golden State Warriors",
+      role: "NBA Champion, Executive, Golden State Warriors",
       imageSrc: Zaza,
+      gsw: true,
     },
     {
       name: "kirk lacob",
@@ -34,6 +35,7 @@ export const Info = () => {
       name: "daniel Brusilovsky",
       role: "VP Tech, WARRIORS & CHASE CENTER",
       imageSrc: Daniel,
+      gsw: true,
     },
   ];
 
@@ -52,8 +54,19 @@ export const Info = () => {
 
         <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-y-12 sm:gap-x-10 lg:gap-x-4 px-10 py-6">
           {judges.map((judge, index) => (
-            <div key={index} className="flex flex-col mb-6 lg:mb-0">
-              <div className="rounded-xl w-52 h-52 lg:w-40 lg:h-40 overflow-hidden">
+            <div key={index} className="relative flex flex-col mb-6 lg:mb-0">
+              <div
+                className={`relative rounded-xl w-52 h-52 lg:w-40 lg:h-40 border-yellow-300 ${
+                  judge.gsw && "border-0"
+                }`}
+              >
+                {/* {judge.gsw && (
+                  <img
+                    src="https://e7.pngegg.com/pngimages/634/644/png-clipart-golden-state-warriors-nba-cleveland-cavaliers-phoenix-suns-sacramento-kings-warrior-sport-trademark-thumbnail.png"
+                    alt=""
+                    className="w-12 h-12 absolute -bottom-3 -right-3 rounded-full z-[9999 border-4 border-yellow-300"
+                  />
+                )} */}
                 <Image
                   className="object-cover"
                   src={judge.imageSrc}

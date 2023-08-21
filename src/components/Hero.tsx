@@ -21,7 +21,7 @@ export const Hero = (
     },
     {
       label: "Prize:",
-      value: "$150k + signed warriors merch",
+      value: "$150k + signed golden state warriors merch",
       link: "#prizes",
     },
   ];
