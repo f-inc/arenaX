@@ -21,8 +21,8 @@ export const Info = () => {
       imageSrc: Baron,
     },
     {
-      name: "executive",
-      role: " Golden State Warriors",
+      name: "zaza pachulia",
+      role: "Executive, Golden State Warriors",
       imageSrc: Zaza,
     },
     {
