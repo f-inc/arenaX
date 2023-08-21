@@ -44,15 +44,16 @@ export const Schedule = () => {
             <span className="text-[#878787]"> 12:30 PM: </span>
             <span>Lunch</span>
           </div>
-          <div className="text-white bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
-            <span className="text-[#878787]"> 9:00 PM:</span>{" "}
-            <span>Doors Close</span>
-          </div>
+
           <div className="text-white bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 5:00 PM: </span>
             <span>
               Fireside Chat: Baron Davis, NBA All-Star and Angel Investor
             </span>
+          </div>
+          <div className="text-white bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
+            <span className="text-[#878787]"> 9:00 PM:</span>{" "}
+            <span>Doors Close</span>
           </div>
         </div>
       </div>
