@@ -35,8 +35,7 @@ export const Schedule = () => {
           <div className="text-[#ffc700] bg-[#08151B] border-grad rounded-2xl text-xl ibm-400 uppercase px-10 py-6 info-gradient">
             <span className="text-[#878787]"> 11:00AM - 1:00PM: </span>
             <span>
-              {" "}
-              Technical Workshops with Nuerosity, Kayyo, Golden State Warriors,
+              Technical Workshops with Neurosity, Kayyo, Golden State Warriors and
               Respell
             </span>
           </div>
